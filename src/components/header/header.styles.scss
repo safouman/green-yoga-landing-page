@@ -2,13 +2,26 @@ header {
   height: 100vh;
   display: flex;
 }
+.upper-leaves {
+  width: 10rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+.full-lady {
+  margin: 5rem;
+
+  width: 30vw;
+}
+
 .header-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 60vh;
-  padding: 10rem;
+  margin: 10rem;
   letter-spacing: 0.3rem;
 }
 .headline {
