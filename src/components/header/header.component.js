@@ -4,9 +4,11 @@ import Button from "../button/button.component"
 
 import UpperLeaves from "../../assets/upper-leaves.svg"
 import FullLady from "../../assets/full-lady.svg"
+import LeftCornerLeaves from "../../assets/left-corner-leaves.svg"
+
 const Header = () => (
   <header>
-    <UpperLeaves className="upper-leaves"></UpperLeaves>
+    <UpperLeaves className="upper-leaves" />
 
     <div className="header-text">
       <div className="headline">
@@ -17,6 +19,7 @@ const Header = () => (
       <Button btn_text="join the green yoga tribe" />
     </div>
     <FullLady className="full-lady"></FullLady>
+    <LeftCornerLeaves className="left-corner-leaves" />
   </header>
 )
 

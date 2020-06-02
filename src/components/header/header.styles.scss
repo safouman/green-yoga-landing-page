@@ -14,7 +14,13 @@ header {
 
   width: 30vw;
 }
-
+.left-corner-leaves {
+  position: absolute;
+  width: 25vw;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 50%);
+}
 .header-text {
   display: flex;
   flex-direction: column;
