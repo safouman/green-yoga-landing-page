@@ -1,0 +1,20 @@
+.cta-btn {
+  background: linear-gradient(90deg, #cf496c 3.75%, #ff6a6c 96.25%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 5rem;
+  min-width: 15rem;
+
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 1.9rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  }
+}

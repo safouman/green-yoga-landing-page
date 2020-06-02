@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Join The Green Yoga Tribe`,
+    description: `Join our Green Yoga Tribe, plant trees and make yoga your lifestyle`,
+    author: "Green Yoga",
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -18,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `green-yoga-join`,
+        short_name: `green-yoga`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
