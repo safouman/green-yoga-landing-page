@@ -9,13 +9,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Green Yoga" />
     <h2>Yoga is much more than poses It’s a lifestyle</h2>{" "}
-    <h2>Yoga is much more than poses It’s a lifestyle</h2>{" "}
-    <h2>Yoga is much more than poses It’s a lifestyle</h2>{" "}
-    <h2>Yoga is much more than poses It’s a lifestyle</h2>{" "}
-    <h2>Yoga is much more than poses It’s a lifestyle</h2>{" "}
-    <h2>Yoga is much more than poses It’s a lifestyle</h2>{" "}
-    <h2>Yoga is much more than poses It’s a lifestyle</h2>{" "}
-    <h2>Yoga is much more than poses It’s a lifestyle</h2>
   </Layout>
 )
 

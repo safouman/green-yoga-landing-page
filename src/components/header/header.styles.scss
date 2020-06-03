@@ -2,6 +2,11 @@ header {
   height: 100vh;
   display: flex;
 }
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .upper-leaves {
   width: 10rem;
   position: absolute;
@@ -16,10 +21,17 @@ header {
 }
 .left-corner-leaves {
   position: absolute;
-  width: 25vw;
+  width: 15vw;
   bottom: 0;
   left: 0;
   transform: translate(0, 50%);
+}
+.right-corner-leaves {
+  position: absolute;
+  width: 15vw;
+  bottom: 0;
+  right: 0;
+  transform: translate(10%, 50%);
 }
 .header-text {
   display: flex;
@@ -28,7 +40,7 @@ header {
   justify-content: center;
   height: 60vh;
   margin: 10rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 .headline {
   font-style: normal;
