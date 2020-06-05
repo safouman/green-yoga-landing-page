@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  @media only screen and (max-width: 600px) {
+    // width < 1200?
+    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+  }
+
+  @media only screen and (max-width: 900px) {
+    // width < 900?
+    font-size: 50%; //1 rem = 8px, 8/16 = 50%
+  }
+}
+body {
+  box-sizing: border-box;
+}
+
+.headline-2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #03313c;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits-container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > ul {
+    margin: 8rem 0rem;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+
+    & > li {
+      flex: 1 0 25%; /* explanation below */
+      margin: 5px;
+      text-decoration: none;
+      color: #03323d;
+      list-style: none;
+      margin: 2rem;
+
+      & > .benefit-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        font-size: small;
+
+        font-weight: bold;
+
+        & > .benefit {
+          width: 8rem;
+          padding: 1rem;
+        }
+        & > span {
+          letter-spacing: 0.2rem;
+        }
+      }
+    }
+  }
+}
+.about-gy {
+  margin-top: 5rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: center;
+
+  color: #03313c;
+}
