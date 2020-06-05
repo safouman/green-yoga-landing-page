@@ -14,6 +14,15 @@
   font-weight: bolder;
   cursor: pointer;
 
+  @media only screen and (max-width: 900px) {
+    font-size: 2rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+  }
+
   &:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     background: linear-gradient(90deg, #017064 3.75%, #01a697 96.25%);

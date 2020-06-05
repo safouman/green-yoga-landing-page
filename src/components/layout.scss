@@ -23,6 +23,7 @@ html {
 }
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .headline-2 {
@@ -35,6 +36,26 @@ body {
   justify-content: center;
   flex-direction: row;
   margin: 2rem;
+  margin: 8rem 0rem 2rem 4rem;
+
+  @media only screen and (max-width: 900px) {
+    margin-top: 10rem;
+    width: 47vw;
+  }
+}
+.headline-3 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #03313c;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2rem;
+  @media only screen and (max-width: 900px) {
+    width: 70vw;
+  }
 }
 main {
   display: flex;
@@ -91,6 +112,8 @@ main {
   font-size: 2rem;
   line-height: 4rem;
   text-align: center;
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   color: #03313c;
 }
