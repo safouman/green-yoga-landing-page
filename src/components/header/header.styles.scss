@@ -27,11 +27,11 @@ header {
 .full-lady {
   margin: 5rem;
   width: 30vw;
-  opacity: 50%;
+
   @media only screen and (max-width: 900px) {
     position: absolute;
     width: 60vw;
-    opacity: 20%;
+    opacity: 0.2;
     z-index: -1;
   }
 }
