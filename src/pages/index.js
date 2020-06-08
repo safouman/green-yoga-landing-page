@@ -13,9 +13,6 @@ import Sprout from "../assets/sprout.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Green Yoga" />
-    <h2 className="headline-2">
-      Yoga is much more than poses It’s a way of life
-    </h2>
 
     <div className="benefits-container">
       <ul>
@@ -61,8 +58,8 @@ const IndexPage = () => (
           </div>
         </li>
       </ul>
-      <h2 className="headline-3">
-        Green Yoga wants to support you on your way to find your true self.
+      <h2 className="headline-2">
+        Yoga is much more than poses It’s a way of life
       </h2>
       <div className="about-gy">
         <span>
@@ -89,9 +86,8 @@ const IndexPage = () => (
           ultimately to reconnect to yourself.
         </span>
       </div>
-
-      <Button btn_text="join the green yoga tribe" />
     </div>
+    <Button btn_text="join the green yoga tribe" />
   </Layout>
 )
 

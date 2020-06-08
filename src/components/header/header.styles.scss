@@ -2,6 +2,8 @@ header {
   height: 100vh;
   display: flex;
   position: relative;
+  justify-content: center;
+
   @media only screen and (max-width: 900px) {
     justify-content: center;
   }
@@ -26,7 +28,9 @@ header {
 }
 .full-lady {
   margin: 5rem;
-  width: 30vw;
+  width: 20vw;
+  position: absolute;
+  right: 0px;
 
   @media only screen and (max-width: 900px) {
     position: absolute;
@@ -42,7 +46,7 @@ header {
   left: 0;
   transform: translate(0, 50%);
   @media only screen and (max-width: 900px) {
-    width: 36vw;
+    width: 26vw;
   }
 }
 .right-corner-leaves {
@@ -52,7 +56,7 @@ header {
   right: 0;
   transform: translate(10%, 50%);
   @media only screen and (max-width: 900px) {
-    width: 27vw;
+    width: 24vw;
   }
 }
 .header-text {
@@ -76,8 +80,7 @@ header {
   color: #03313c;
   align-self: center;
   margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
 }
 
 .subhead {
@@ -86,5 +89,4 @@ header {
   text-align: center;
 
   color: #03313c;
-  margin-bottom: 2rem;
 }
