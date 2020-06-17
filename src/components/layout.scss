@@ -132,9 +132,9 @@ main {
   flex-direction: column;
   color: #03313c;
   & ul {
-    margin-top: 2rem;
     text-align: justify;
-    margin-left: 6rem;
+
+    margin: 2rem 6rem;
     & li {
       margin-left: 6rem;
       width: 80%;
@@ -143,11 +143,11 @@ main {
       }
     }
   }
+
   .ready {
     letter-spacing: 1rem;
     text-transform: uppercase;
     margin: 5rem;
-    width: 100%;
   }
   .last-call {
     margin-top: 5rem;
