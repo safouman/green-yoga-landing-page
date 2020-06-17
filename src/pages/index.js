@@ -92,40 +92,37 @@ const IndexPage = () => (
             </ul>
           </span>
         </div>
-
-        <div className="bg">
-          <h3 className="ready">Are you ready to yoga? </h3>
-          <span>
-            {" "}
-            Become member of Green Yoga Tribe <strong> ONLY IF:</strong>
-            <ul>
-              <li>
-                {" "}
-                You want to <strong>CONNECT</strong> with like minded people to
-                create a <strong>BETTER</strong>
-                <strong> FUTURE FOR ALL</strong> of us.{" "}
-              </li>
-              <li>
-                {" "}
-                You are ready to make an real effort to{" "}
-                <strong> BE THE CHANGE</strong> that you want to see in{" "}
-                <strong>THE WORLD.</strong>
-              </li>
-              <li>
-                {" "}
-                You want to get <strong>SERIOUS</strong> about your{" "}
-                <strong>YOGA PRACTICE</strong> and dive deep into the ancient
-                wisdom.
-              </li>
-            </ul>{" "}
-          </span>
-          <span className="last-call">
-            {" "}
-            <strong> JOIN</strong> below if you are ready to{" "}
-            <strong>GO INWARDS</strong> and work within ~ but{" "}
-            <strong>TOGETHER</strong>
-          </span>{" "}
-        </div>
+        <h3 className="ready">Are you ready to yoga? </h3>
+        <span>
+          {" "}
+          Become member of Green Yoga Tribe <strong> ONLY IF:</strong>
+          <ul>
+            <li>
+              {" "}
+              You want to <strong>CONNECT</strong> with like minded people to
+              create a <strong>BETTER</strong>
+              <strong> FUTURE FOR ALL</strong> of us.{" "}
+            </li>
+            <li>
+              {" "}
+              You are ready to make an real effort to{" "}
+              <strong> BE THE CHANGE</strong> that you want to see in{" "}
+              <strong>THE WORLD.</strong>
+            </li>
+            <li>
+              {" "}
+              You want to get <strong>SERIOUS</strong> about your{" "}
+              <strong>YOGA PRACTICE</strong> and dive deep into the ancient
+              wisdom.
+            </li>
+          </ul>{" "}
+        </span>
+        <span className="last-call">
+          {" "}
+          <strong> JOIN</strong> below if you are ready to{" "}
+          <strong>GO INWARDS</strong> and work within ~ but{" "}
+          <strong>TOGETHER</strong>
+        </span>{" "}
       </div>
     </div>
 
