@@ -1,10 +1,9 @@
 header {
   height: 100vh;
-  display: flex;
-  position: relative;
-  justify-content: center;
 
-  @media only screen and (max-width: 900px) {
+  position: relative;
+
+  @media only screen and (max-width: 1100px) {
     justify-content: center;
   }
 }
@@ -12,7 +11,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1100px) {
     flex-direction: column;
   }
 }
@@ -22,7 +21,7 @@ header {
   top: 0;
   left: 50%;
   transform: translate(-50%, -20%);
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1100px) {
     transform: translate(-50%, -28%);
   }
 }
@@ -32,9 +31,9 @@ header {
   position: absolute;
   right: 0px;
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1100px) {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     opacity: 0.2;
     z-index: -1;
   }
@@ -45,8 +44,8 @@ header {
   bottom: 0;
   left: 0;
   transform: translate(0, 50%);
-  @media only screen and (max-width: 900px) {
-    width: 26vw;
+  @media only screen and (max-width: 1100px) {
+    width: 22vw;
   }
 }
 .right-corner-leaves {
@@ -55,8 +54,8 @@ header {
   bottom: 0;
   right: 0;
   transform: translate(10%, 50%);
-  @media only screen and (max-width: 900px) {
-    width: 24vw;
+  @media only screen and (max-width: 1100px) {
+    width: 20vw;
   }
 }
 .header-text {
@@ -67,9 +66,6 @@ header {
 
   margin: 10rem;
   letter-spacing: 0.1rem;
-  @media only screen and (max-width: 1100px) {
-    margin: 6rem;
-  }
 }
 .headline {
   font-style: normal;

@@ -40,7 +40,7 @@ a {
   justify-content: center;
   flex-direction: row;
   margin: 2rem;
-
+  letter-spacing: 0.5rem;
   width: 100%;
 
   @media only screen and (max-width: 900px) {
@@ -66,10 +66,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  top: -27rem;
+  position: relative;
+  @media only screen and (max-width: 1100px) {
+    top: -37rem;
+  }
 }
 
 .benefits-container {
-  width: 50vw;
+  width: 60vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,7 +82,7 @@ main {
 
   & > ul {
     position: relative;
-    top: -8rem;
+
     margin: 2rem;
     flex-wrap: wrap;
     font-size: 1.5rem;
@@ -111,6 +116,9 @@ main {
       }
     }
   }
+  @media only screen and (max-width: 1100px) {
+    flex-direction: column-reverse;
+  }
 }
 .about-gy {
   margin-top: 5rem;
@@ -123,6 +131,27 @@ main {
   align-items: center;
   flex-direction: column;
   color: #03313c;
+  & ul {
+    margin-top: 2rem;
+    text-align: justify;
+    margin-left: 6rem;
+    & li {
+      margin-left: 6rem;
+      width: 80%;
+      @media only screen and (max-width: 900px) {
+        margin-left: 0rem;
+      }
+    }
+  }
+  .ready {
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    margin: 5rem;
+    width: 100%;
+  }
+  .last-call {
+    margin-top: 5rem;
+  }
 }
 
 footer {

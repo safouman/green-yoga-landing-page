@@ -34,7 +34,7 @@ const IndexPage = () => (
           <div className="benefit-container">
             <Sprout className="benefit"></Sprout>
             <span>Grow Inside</span>
-            <span>Plant Tress Outside</span>
+            <span>Plant Trees Outside</span>
           </div>
         </li>
         <li>
@@ -58,36 +58,75 @@ const IndexPage = () => (
           </div>
         </li>
       </ul>
-      <h2 className="headline-2">
-        Yoga is much more than poses It’s a way of life
-      </h2>
       <div className="about-gy">
+        <h2 className="headline-2">
+          FREE Facebook Group <br />
+          For Green Yogis & Yoginis
+        </h2>
+        <div>
+          <span>
+            Join our <strong>FREE </strong>Facebook Group for yogis, yoginis and
+            tree lovers.
+            <br />
+            <strong>GREEN YOGA</strong> want to spread yoga and plant trees
+            together <strong>WITH YOU.</strong> <br /> <br />
+            By joining the <strong>GREEN YOGA TRIBE</strong> in the{" "}
+            <strong>FREE</strong> Facebook Group we offer you:
+            <ul>
+              <li>
+                Lifetime support from the growing <strong>COMMUNITY</strong> of
+                the Green Yoga Tribe in times of transition.
+              </li>
+              <li>
+                <strong>DAILY</strong> new <strong>INSPIRATIONS</strong> on your
+                yogic path toward a brighter future.
+              </li>
+              <li>
+                Knowledge about <strong>ANCIENT WISDOM</strong> and Practical{" "}
+                <strong>TOOLS</strong> that will navigate you through these
+                insecure times
+              </li>
+              <li>
+                Get involved in our <strong>TREE PLANTATION</strong> project and
+                make a difference.
+              </li>
+            </ul>
+          </span>
+        </div>
+        <h3 className="ready">Are you ready to yoga? </h3>
         <span>
           {" "}
-          As there are many ways to yoga Green Yoga offers a variety of tools
-          and classes to help you in this process. There is something for
-          everybody: <br />
-          Calming <strong> Yin classes</strong> to relax your nervous system,
-          energizing <strong> Vinyasa Flows</strong>, challenging{" "}
-          <strong>Ashtanga classes</strong>, traditional{" "}
-          <strong> Hatha classes</strong>,<strong> Kundalini Yoga</strong> to
-          awaken your soul, <strong> Meditation </strong>to calm your monkey
-          mind !
+          Become member of Green Yoga Tribe <strong> ONLY IF:</strong>
+          <ul>
+            <li>
+              {" "}
+              You want to <strong>CONNECT</strong> with like minded people to
+              create a <strong>BETTER</strong>
+              <strong> FUTURE FOR ALL</strong> of us.{" "}
+            </li>
+            <li>
+              {" "}
+              You are ready to make an real effort to{" "}
+              <strong> BE THE CHANGE</strong> that you want to see in{" "}
+              <strong>THE WORLD.</strong>
+            </li>
+            <li>
+              {" "}
+              You want to get <strong>SERIOUS</strong> about your{" "}
+              <strong>YOGA PRACTICE</strong> and dive deep into the ancient
+              wisdom.
+            </li>
+          </ul>{" "}
         </span>
-
-        <span>
-          Moreover Green Yoga offers <strong>Singing Meditations </strong>to
-          open your heart,
-          <strong>Sound Healing and Gong Baths </strong>to go to an internal
-          state of silence, peace and truth and<strong> Dance classes</strong>{" "}
-          to get in touch with your body and move freely.
-          <br /> All of our classes and offerings support you to reduce stress
-          and tension, to create a harmonic union of body and mind and
-          ultimately to reconnect to yourself.
-        </span>
+        <span className="last-call">
+          {" "}
+          <strong> JOIN</strong> below if you are ready to{" "}
+          <strong>GO INWARDS</strong> and work within ~ but{" "}
+          <strong>TOGETHER</strong>
+        </span>{" "}
       </div>
     </div>
-    <Button btn_text="join the green yoga tribe" />
+    <Button btn_text="Join now our FREE FACEBOOK group" />
   </Layout>
 )
 
