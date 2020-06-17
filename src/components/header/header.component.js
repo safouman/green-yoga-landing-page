@@ -13,8 +13,7 @@ const Header = () => (
     <div className="main">
       <div className="header-text">
         <div className="headline">
-          <span>If You Can’t Go Outside </span>
-          <span>Go Inside</span>
+          <span>Let's yoga & plant trees</span>
         </div>
         <div className="subhead">
           {" "}

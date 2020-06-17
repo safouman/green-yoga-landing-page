@@ -9,7 +9,7 @@ import Meditation from "../assets/meditation.svg"
 import Yoga from "../assets/yoga.svg"
 import Support from "../assets/wellness-group.svg"
 import Sprout from "../assets/sprout.svg"
-
+import img from "../images/gy.png"
 const IndexPage = () => (
   <Layout>
     <SEO title="Green Yoga" />
@@ -75,16 +75,15 @@ const IndexPage = () => (
             <ul>
               <li>
                 Lifetime support from the growing <strong>COMMUNITY</strong> of
-                the Green Yoga Tribe in times of transition.
+                the Green Yoga Tribe.
               </li>
               <li>
                 <strong>DAILY</strong> new <strong>INSPIRATIONS</strong> on your
-                yogic path toward a brighter future.
+                yogic path.
               </li>
               <li>
                 Knowledge about <strong>ANCIENT WISDOM</strong> and Practical{" "}
-                <strong>TOOLS</strong> that will navigate you through these
-                insecure times
+                <strong>TOOLS</strong> that will navigate you .
               </li>
               <li>
                 Get involved in our <strong>TREE PLANTATION</strong> project and
