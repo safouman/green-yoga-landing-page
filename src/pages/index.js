@@ -9,7 +9,7 @@ import Meditation from "../assets/meditation.svg"
 import Yoga from "../assets/yoga.svg"
 import Support from "../assets/wellness-group.svg"
 import Sprout from "../assets/sprout.svg"
-import img from "../images/gy.png"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Green Yoga" />
