@@ -46,7 +46,7 @@ header {
   left: 0;
   transform: translate(0, 50%);
   @media only screen and (max-width: 1100px) {
-    bottom: 3rem;
+    bottom: 8rem;
   }
 }
 .right-corner-leaves {
@@ -56,7 +56,7 @@ header {
   right: 0;
   transform: translate(10%, 50%);
   @media only screen and (max-width: 1100px) {
-    bottom: 3rem;
+    bottom: 8rem;
   }
   @media only screen and (min-width: 1700px) {
     right: -1rem;
