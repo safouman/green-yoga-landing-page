@@ -12,13 +12,14 @@ html {
   overflow-x: hidden;
 
   @media only screen and (max-width: 600px) {
-    // width < 1200?
-    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    font-size: 56.25%;
   }
 
   @media only screen and (max-width: 900px) {
-    // width < 900?
-    font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    font-size: 50%;
+  }
+  @media only screen and (min-width: 1700px) {
+    font-size: 100%;
   }
 }
 body {
@@ -66,12 +67,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: -27rem;
+  top: -20em;
   position: relative;
-  margin-bottom: -27rem;
-  @media only screen and (max-width: 1100px) {
-    top: -37rem;
-    margin-bottom: -37rem;
+  margin-bottom: -20rem;
+  @media only screen and (max-width: 900px) {
+    top: -30rem;
+    margin-bottom: -30rem;
+  }
+  @media only screen and (max-width: 600px) {
+    top: -25rem;
+    margin-bottom: -25rem;
   }
 }
 
@@ -82,45 +87,7 @@ main {
   justify-content: center;
   align-items: center;
 
-  & > ul {
-    position: relative;
-
-    margin: 2rem;
-    flex-wrap: wrap;
-    font-size: 1.5rem;
-    text-align: center;
-    display: flex;
-
-    & > li {
-      flex: 1 0 25%; /* explanation below */
-      margin: 5px;
-      text-decoration: none;
-      color: #03323d;
-      list-style: none;
-      margin: 2rem;
-
-      & > .benefit-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        font-size: small;
-
-        font-weight: bold;
-
-        & > .benefit {
-          width: 8rem;
-          padding: 1rem;
-        }
-        & > span {
-          letter-spacing: 0.2rem;
-        }
-      }
-    }
-  }
   @media only screen and (max-width: 1100px) {
-    flex-direction: column-reverse;
-    width: 70vw;
   }
 }
 .about-gy {
@@ -143,6 +110,7 @@ main {
       width: 80%;
       @media only screen and (max-width: 900px) {
         margin-left: 0rem;
+        width: 100%;
       }
     }
   }
@@ -151,9 +119,45 @@ main {
     letter-spacing: 1rem;
     text-transform: uppercase;
     margin: 5rem;
+    width: 100%;
   }
   .last-call {
     margin-top: 5rem;
+  }
+  & .benfits-list {
+    position: relative;
+
+    margin: 2rem;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+
+    & > li {
+      flex: 1 0 25%; /* explanation below */
+      margin: 5px;
+      text-decoration: none;
+      color: #03323d;
+      list-style: none;
+      margin: 2rem;
+
+      & > .benefit-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+
+        font-weight: bold;
+
+        & > .benefit {
+          width: 8rem;
+          padding: 1rem;
+        }
+        & > span {
+          letter-spacing: 0.2rem;
+        }
+      }
+    }
   }
 }
 

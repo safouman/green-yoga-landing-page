@@ -17,11 +17,11 @@ const Header = () => (
         </div>
         <div className="subhead">
           {" "}
-          Green Yoga wants to support you on your way to find your true self.
+          Green Yoga wants to support you on your way to find yourSelf.
         </div>
         <Button btn_text="Join now our FREE FACEBOOK group" />
+        <FullLady className="full-lady"></FullLady>
       </div>
-      <FullLady className="full-lady"></FullLady>
     </div>
 
     <LeftCornerLeaves className="left-corner-leaves" />
