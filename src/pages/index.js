@@ -37,8 +37,8 @@ const IndexPage = () => (
                 <strong>Daily Inspirations</strong> on your yogic path.
               </li>
               <li>
-                Knowledge about <strong>Ancient Wisdom</strong> and Practical{" "}
-                <strong>Tools </strong>to navigate.
+                Knowledge about <strong>Ancient Wisdom</strong> and{" "}
+                <strong>PracticalTools </strong>to navigate.
               </li>
               <li>
                 To get involved in our <strong>Tree Plantation</strong> project
