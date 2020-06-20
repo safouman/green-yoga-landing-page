@@ -19,7 +19,7 @@ const Header = () => (
           {" "}
           Green Yoga wants to support you on your way to find yourSelf.
         </div>
-        <Button btn_text="Join now our FREE FACEBOOK group" />
+        <Button btn_text="Join our FREE FACEBOOK group now !" />
         <FullLady className="full-lady"></FullLady>
       </div>
     </div>

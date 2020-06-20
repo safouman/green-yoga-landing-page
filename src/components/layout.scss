@@ -42,7 +42,7 @@ a {
   flex-direction: row;
   margin: 2rem;
   letter-spacing: 0.5rem;
-  width: 100%;
+  width: 80vw;
 
   @media only screen and (max-width: 900px) {
     margin-top: 2rem;
@@ -93,6 +93,7 @@ main {
   }
 }
 .about-gy {
+  width: 60vw;
   margin-top: 5rem;
   font-style: normal;
   font-weight: 300;
@@ -124,7 +125,7 @@ main {
     letter-spacing: 1rem;
     text-transform: uppercase;
     margin: 5rem;
-    width: 100%;
+    width: 80vw;
   }
   .last-call {
     margin-top: 5rem;
@@ -137,6 +138,11 @@ main {
     font-size: 1.5rem;
     text-align: center;
     display: flex;
+    .hideme {
+      @media only screen and (max-width: 900px) {
+        display: none;
+      }
+    }
 
     & > li {
       flex: 1 0 25%; /* explanation below */

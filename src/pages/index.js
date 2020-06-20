@@ -55,8 +55,8 @@ const IndexPage = () => (
               <span> The Essence Of Yogic Therapy</span>
             </div>
           </li>
-          <li>
-            <div className="benefit-container">
+          <li className="hideme">
+            <div className="benefit-container ">
               <LoveYourself className="benefit"></LoveYourself>
               <span>Understand </span>
               <span> Your Mind and Body</span>
@@ -69,8 +69,8 @@ const IndexPage = () => (
               <span>Plant Trees Outside</span>
             </div>
           </li>
-          <li>
-            <div className="benefit-container">
+          <li className="hideme">
+            <div className="benefit-container ">
               <Meditation className="benefit"></Meditation>
               <span>Cure What Ails You</span>
             </div>
@@ -83,17 +83,19 @@ const IndexPage = () => (
             </div>
           </li>
 
-          <li>
-            <div className="benefit-container">
+          <li className="hideme">
+            <div className="benefit-container ">
               <Infinite className="benefit"></Infinite>
               <span>And so much more</span>
             </div>
           </li>
         </ul>
-        <h3 className="ready">Are you ready to yoga? </h3>
+        <h3 className="ready">
+          Are you ready to yoga?
+          <br /> Become member of Green Yoga Tribe <strong> ONLY IF:</strong>
+        </h3>
         <span>
           {" "}
-          Become member of Green Yoga Tribe <strong> ONLY IF:</strong>
           <ul>
             <li>
               {" "}
@@ -121,7 +123,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <Button btn_text="Join now our FREE FACEBOOK group" />
+    <Button btn_text="Join our FREE FACEBOOK group now !" />
   </Layout>
 )
 
