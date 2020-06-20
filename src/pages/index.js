@@ -99,25 +99,25 @@ const IndexPage = () => (
           <ul>
             <li>
               {" "}
-              You want to <strong>CONNECT</strong> with like minded people for
-              the creation of a <strong>BETTER FUTURE.</strong>
+              You want to <strong>connect</strong> with like minded people for
+              the creation of a <strong>better future.</strong>
             </li>
             <li>
               {" "}
               You are ready to make an effort to
-              <strong> BE THE CHANGE</strong> that you want to see in{" "}
-              <strong>THE WORLD.</strong>
+              <strong>be the change</strong> that you want to see in{" "}
+              <strong>the world.</strong>
             </li>
             <li>
-              You want to <strong>DEEPEN</strong> and <strong>EXPAND </strong>
-              your <strong>YOGA PRACTICE.</strong>
+              You want to <strong>deepen</strong> and <strong>expand </strong>
+              your <strong>Yoga practice.</strong>
             </li>
           </ul>{" "}
         </span>
         <span className="last-call">
           {" "}
-          <strong> JOIN</strong> below if you are ready to{" "}
-          <strong>GO INWARDS</strong> and work within ~{" "}
+          <strong> Join</strong> below if you are ready to{" "}
+          <strong>go inwards</strong> and work within ~{" "}
           <strong>TOGETHER</strong>
         </span>{" "}
       </div>
