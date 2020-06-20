@@ -31,17 +31,17 @@ const IndexPage = () => (
             <strong>FREE</strong> Facebook Group we offer you:
             <ul>
               <li>
-                Support from the Green Yoga Tribe <strong>COMMUNITY.</strong>
+                Support from the Green Yoga Tribe <strong>community.</strong>
               </li>
               <li>
-                <strong>DAILY INSPIRATIONS</strong> on your yogic path.
+                <strong>Daily Inspirations</strong> on your yogic path.
               </li>
               <li>
-                Knowledge about <strong>ANCIENT WISDOM</strong> and Practical{" "}
-                <strong>TOOLS </strong>to navigate.
+                Knowledge about <strong>Ancient Wisdom</strong> and Practical{" "}
+                <strong>Tools </strong>to navigate.
               </li>
               <li>
-                To get involved in our <strong>TREE PLANTATION</strong> project
+                To get involved in our <strong>Tree Plantation</strong> project
                 and make a difference.
               </li>
             </ul>
@@ -104,9 +104,10 @@ const IndexPage = () => (
             </li>
             <li>
               {" "}
-              You are ready to make an effort to
-              <strong>be the change</strong> that you want to see in{" "}
-              <strong>the world.</strong>
+              You are ready to make an effort to <strong>
+                be the change
+              </strong>{" "}
+              that you want to see in <strong>the world.</strong>
             </li>
             <li>
               You want to <strong>deepen</strong> and <strong>expand </strong>
