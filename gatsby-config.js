@@ -8,6 +8,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -15,6 +16,11 @@ module.exports = {
         short_name: `green-yoga`,
         start_url: `/`,
       },
+      {
+        resolve: `gatsby-plugin-facebook-pixel`,
+        options: {
+          pixelId: '706261523500931',
+        },
     },
     {
       resolve: "gatsby-plugin-react-svg",
