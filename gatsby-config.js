@@ -5,6 +5,14 @@ module.exports = {
     author: "Green Yoga",
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/
+        }
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
@@ -23,14 +31,7 @@ module.exports = {
         start_url: `/`,
       },
     },
-    {
-      resolve: "gatsby-plugin-react-svg",
-      options: {
-        rule: {
-          include: `${__dirname}/src/assets/`, // See below to configure properly
-        },
-      },
-    },
+  
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

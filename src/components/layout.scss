@@ -42,11 +42,18 @@ a {
   flex-direction: row;
   margin: 2rem;
   letter-spacing: 0.5rem;
-  width: 80vw;
+  width: 70vw;
 
   @media only screen and (max-width: 900px) {
     margin-top: 2rem;
     letter-spacing: 0.1rem;
+
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 2.4rem;
+    line-height: 4rem;
+    width: 75vw;
+
   }
 }
 .headline-3 {
@@ -117,7 +124,7 @@ main {
   }
 
   .ready {
-    letter-spacing: 1rem;
+    letter-spacing: .4rem;
     text-transform: uppercase;
     margin: 5rem;
 
@@ -169,6 +176,65 @@ main {
     }
   }
 }
+.img{
+  width: 40vw;
+
+  @media only screen and (max-width: 900px) {
+    width: 80vw;
+  }
+}
+
+.thanks{
+  letter-spacing: .4rem;
+  color: #03313c;
+  text-align: center;
+  font-size: 3rem;
+  margin: 5rem;
+
+  @media only screen and (max-width: 1100px) {
+    width: 80vw;
+  }
+}
+.testimonials{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  @media only screen and (max-width: 900px) {
+    flex-direction: column  ;
+  }
+  & .testimonial{
+    margin: 2rem;
+    width: 20vw;
+    line-height: 2.2rem;
+    font-size: 1.8rem;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    padding: 2rem;
+    font-style: italic;
+    color: #03313c;
+    & h4{
+      margin-bottom: 1rem;
+    }
+    & .stars{
+      align-items: center;
+      padding: 1rem;
+      color: gold;
+      display: flex;
+      font-size: 4rem;
+    
+      justify-content: center;
+    }
+
+    @media only screen and (max-width: 900px) {
+      width: 40vw;
+      line-height: 3.5rem;
+      font-size: 2.5rem;
+    }
+    @media only screen and (max-width: 600px) {
+      width:60vw;
+    }
+  }
+}
+
 
 footer {
   font-size: 1.5rem;

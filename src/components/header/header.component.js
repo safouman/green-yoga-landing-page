@@ -13,13 +13,14 @@ const Header = () => (
     <div className="main">
       <div className="header-text">
         <div className="headline">
-          <span>Let's Yoga & Plant Trees</span>
+          <span>Help Us Plant Trees And Share With Us Our Daily Yoga And Meditation
+Practices. </span>
         </div>
         <div className="subhead">
           {" "}
-          Green Yoga wants to support you on your way to find yourSelf.
+          An online community for Yoga, Meditation and Tree Lovers.
         </div>
-        <Button btn_text="Join our FREE FACEBOOK group now !" />
+        <Button btn_text="Join our Green Yoga Facebook Group! " />
         <FullLady className="full-lady"></FullLady>
       </div>
     </div>

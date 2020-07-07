@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Button from "../components/button/button.component"
 import SEO from "../components/seo"
-
+import img from "../images/norasri.jpeg"
 import Infinite from "../assets/infinite-symbol.svg"
 import LoveYourself from "../assets/love-yourself.svg"
 import Meditation from "../assets/meditation.svg"
@@ -17,15 +17,12 @@ const IndexPage = () => (
     <div className="benefits-container">
       <div className="about-gy">
         <h2 className="headline-2">
-          FREE Facebook Group <br />
-          For Green Yogis & Yoginis
+        An Online Community For Us All To Share Our Experiences And Grow
+With One Another
         </h2>
         <div>
           <span>
-            Join our <strong>FREE </strong>Facebook Group for yogis, yoginis and
-            tree lovers.
-            <br />
-            <strong>GREEN YOGA</strong> want to spread yoga and plant trees
+            <strong>GREEN YOGA</strong> want to spread Yoga & Meditation and plant trees
             <strong> WITH YOU.</strong> <br /> <br />
             By joining the <strong>GREEN YOGA TRIBE</strong> in the{" "}
             <strong>FREE</strong> Facebook Group we offer you:
@@ -91,8 +88,9 @@ const IndexPage = () => (
           </li>
         </ul>
         <h3 className="ready">
-          Are you ready to yoga?
-          <br /> Become member of Green Yoga Tribe <strong> ONLY IF:</strong>
+        ARE YOU READY TO LEARN A NEW FUN WAY TO DO YOGA AND
+MEDITATION?
+<br />  <br />BECOME A MEMBER OF OUR GREEN YOGA TRIBE ONLY IF:
         </h3>
         <span>
           {" "}
@@ -124,7 +122,33 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <Button btn_text="Join our FREE FACEBOOK group now !" />
+    <Button btn_text="Join our Green Yoga Facebook Group! " />
+    <h3 className="thanks">   What Others  Have To Say About Green Yoga</h3>
+    <div className="testimonials">
+      <div className="testimonial">
+<h4>Maria Antonella Campostrini</h4>
+      I’ve been practising here for three months and I love it, teachers are very nice and the studio is super cosy. Classes are suitable for both beginners and experienced practitioners.
+      <div className="stars">★★★★★</div>
+      </div>
+      <div className="testimonial">
+        <h4>ae incorperated</h4>
+      I came along today 31st December 2019 for a Gong session combined with yoga. It was great a packed studio full of lovely people who wanted to ring through the new year together. Great feel amongst all who came and I liked the teachers vibe. It was chill and will go again. Good atmosphere, donation based.
+<div className="stars">★★★★★</div>
+</div>
+<div className="testimonial">
+  <h4>Marcel Fladrich</h4>
+Since six weeks I visit "Flow with Sonja" every Thursday and I can only recommend it to everybody.
+I didn't think that yoga would bring me anything, but I was taught a better one and I wouldn't want to miss it anymore.
+Sonja always manages to bring about a state of relaxation within five minutes, so that I forget all everyday stress and feel like a new person after the class. 
+Thanks for this great experience :) 
+#thumbsup
+<div className="stars">★★★★★</div>
+</div>
+
+      
+    </div>
+  <h3 className="thanks">Thank you, from Sri & Nora, Green Yoga</h3>
+    <img className="img" src={img}></img>
   </Layout>
 )
 

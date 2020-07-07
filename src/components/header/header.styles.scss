@@ -73,7 +73,7 @@ header {
   letter-spacing: 0.1rem;
 }
 .headline {
-  letter-spacing: 1rem;
+  letter-spacing: .4rem;
   font-style: normal;
   font-weight: bold;
   font-size: 4rem;
@@ -83,6 +83,11 @@ header {
   align-self: center;
   margin-bottom: 2rem;
   display: inline-block;
+  @media only screen and (max-width: 600px) {
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 75vw;
+  }
 }
 
 .subhead {
