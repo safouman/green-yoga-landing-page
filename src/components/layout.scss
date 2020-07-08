@@ -78,6 +78,26 @@ main {
   top: -20rem;
   position: relative;
   margin-bottom: -20rem;
+  @media only screen and (max-height: 550px) {
+    top: -15rem;
+    margin-bottom: -15rem;
+   
+  }
+  @media only screen and (max-height: 480px) {
+    top: -10rem;
+    margin-bottom: -10rem;
+   
+  }
+  @media only screen and (max-height: 400px) {
+    top: -5rem;
+    margin-bottom: -5rem;
+   
+  }
+  @media only screen and (max-height: 350px) {
+    top: 0rem;
+    margin-bottom: 0rem;
+   
+  }
   @media only screen and (max-width: 900px) {
     top: -25rem;
     margin-bottom: -25rem;
@@ -86,12 +106,14 @@ main {
   @media only screen and(max-width: 900px) and (max-height: 550px) {
     top: -15rem;
     margin-bottom: -15rem;
+    @media only screen and (max-height: 350px) {
+      top: -5rem;
+      margin-bottom: -5rem;
+     
+    }
   }
 
-  @media only screen and (max-height: 400px) {
-    top: -10rem;
-    margin-bottom: -10rem;
-  }
+ 
   @media only screen and (max-width: 350px)  {
     top: -20rem;
     margin-bottom: -20rem;
@@ -103,6 +125,10 @@ main {
   @media only screen and (max-width: 350px)  and (max-height: 385px) {
     top: -5rem;
     margin-bottom: -5rem;
+  }
+  @media only screen and (max-width: 300px)  and (max-height: 360px) {
+    top: 0rem;
+    margin-bottom: 0rem;
   }
 }
 
