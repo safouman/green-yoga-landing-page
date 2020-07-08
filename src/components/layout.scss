@@ -88,12 +88,12 @@ main {
     margin-bottom: -10rem;
    
   }
-  @media only screen and (max-height: 400px) {
+  @media only screen and (max-height: 430px) {
     top: -5rem;
     margin-bottom: -5rem;
    
   }
-  @media only screen and (max-height: 350px) {
+  @media only screen and (max-height: 370px) {
     top: 0rem;
     margin-bottom: 0rem;
    
@@ -119,8 +119,8 @@ main {
   }
  
   @media only screen and (max-width: 350px)  {
-    top: -20rem;
-    margin-bottom: -20rem;
+    top: -15rem;
+    margin-bottom: -15rem;
   }
   @media only screen and (max-width: 350px)  and (max-height: 500px) {
     top: -10rem;

@@ -15,10 +15,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div>
+   
         <main>{children}</main>
         <footer>© {new Date().getFullYear()}, Green Yoga</footer>
-      </div>
+     
     </>
   )
 }
