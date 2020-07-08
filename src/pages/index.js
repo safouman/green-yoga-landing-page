@@ -148,7 +148,7 @@ Thanks for this great experience :)
       
     </div>
   <h3 className="thanks">Thank you, from Sri & Nora, Green Yoga</h3>
-    <img className="img" src={img}></img>
+    <img className="img" src={img} alt="Green Yoga Founders"></img>
   </Layout>
 )
 
