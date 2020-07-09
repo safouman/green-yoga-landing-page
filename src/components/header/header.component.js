@@ -22,11 +22,17 @@ Practices. </span>
         </div>
         <Button btn_text="Join our Green Yoga Facebook Group! " />
         <FullLady className="full-lady"></FullLady>
+        <h2 className="headline-2">
+        An Online Community For Us All To Share Our Experiences And Grow
+With One Another
+        </h2>
       </div>
+    
     </div>
 
     <LeftCornerLeaves className="left-corner-leaves" />
     <RightCornerLeaves className="right-corner-leaves"></RightCornerLeaves>
+    
   </header>
 )
 

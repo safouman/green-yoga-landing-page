@@ -16,10 +16,7 @@ const IndexPage = () => (
 
     <div className="benefits-container">
       <div className="about-gy">
-        <h2 className="headline-2">
-        An Online Community For Us All To Share Our Experiences And Grow
-With One Another
-        </h2>
+
         <div>
           <span>
             <strong>GREEN YOGA</strong> want to spread Yoga & Meditation and plant trees
