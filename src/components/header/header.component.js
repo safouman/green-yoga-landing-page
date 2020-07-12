@@ -13,26 +13,26 @@ const Header = () => (
     <div className="main">
       <div className="header-text">
         <div className="headline">
-          <span>Help Us Plant Trees And Share With Us Our Daily Yoga And Meditation
-Practices. </span>
+          <span>
+            Help Us Plant Trees And Share With Us Our Daily Yoga And Meditation
+            Practices.{" "}
+          </span>
         </div>
         <div className="subhead">
           {" "}
           An online community for Yoga, Meditation and Tree Lovers.
         </div>
-        <Button btn_text="Join our Green Yoga Facebook Group! " />
+        <Button btn_text="Click Here To Join Our Green Yoga Tribe " />
         <FullLady className="full-lady"></FullLady>
         <h2 className="headline-2">
-        An Online Community For Us All To Share Our Experiences And Grow
-With One Another
+          An Online Community For Us All To Share Our Experiences And Grow With
+          One Another
         </h2>
       </div>
-    
     </div>
 
     <LeftCornerLeaves className="left-corner-leaves" />
     <RightCornerLeaves className="right-corner-leaves"></RightCornerLeaves>
-    
   </header>
 )
 

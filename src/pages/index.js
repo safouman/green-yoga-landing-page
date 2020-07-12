@@ -16,10 +16,10 @@ const IndexPage = () => (
 
     <div className="benefits-container">
       <div className="about-gy">
-
         <div>
           <span>
-            <strong>GREEN YOGA</strong> want to spread Yoga & Meditation and plant trees
+            <strong>GREEN YOGA</strong> want to spread Yoga & Meditation and
+            plant trees
             <strong> WITH YOU.</strong> <br /> <br />
             By joining the <strong>GREEN YOGA TRIBE</strong> in the{" "}
             <strong>FREE</strong> Facebook Group we offer you:
@@ -85,9 +85,9 @@ const IndexPage = () => (
           </li>
         </ul>
         <h3 className="ready">
-        ARE YOU READY TO LEARN A NEW FUN WAY TO DO YOGA AND
-MEDITATION?
-<br />  <br />BECOME A MEMBER OF OUR GREEN YOGA TRIBE ONLY IF:
+          ARE YOU READY TO LEARN A NEW FUN WAY TO DO YOGA AND MEDITATION?
+          <br /> <br />
+          BECOME A MEMBER OF OUR GREEN YOGA TRIBE ONLY IF:
         </h3>
         <span>
           {" "}
@@ -119,32 +119,40 @@ MEDITATION?
       </div>
     </div>
 
-    <Button btn_text="Join our Green Yoga Facebook Group! " />
-    <h3 className="thanks">   What Others  Have To Say About Green Yoga</h3>
+    <Button
+      btn_text="Click Here To Join 
+Our Green Yoga Tribe"
+    />
+    <h3 className="thanks"> What Others Have To Say About Green Yoga</h3>
     <div className="testimonials">
       <div className="testimonial">
-<h4>Maria Antonella Campostrini</h4>
-      I’ve been practising here for three months and I love it, teachers are very nice and the studio is super cosy. Classes are suitable for both beginners and experienced practitioners.
-      <div className="stars">★★★★★</div>
+        <h4>Maria Antonella Campostrini</h4>
+        I’ve been practising here for three months and I love it, teachers are
+        very nice and the studio is super cosy. Classes are suitable for both
+        beginners and experienced practitioners.
+        <div className="stars">★★★★★</div>
       </div>
       <div className="testimonial">
-        <h4>ae incorperated</h4>
-      I came along today 31st December 2019 for a Gong session combined with yoga. It was great a packed studio full of lovely people who wanted to ring through the new year together. Great feel amongst all who came and I liked the teachers vibe. It was chill and will go again. Good atmosphere, donation based.
-<div className="stars">★★★★★</div>
-</div>
-<div className="testimonial">
-  <h4>Marcel Fladrich</h4>
-Since six weeks I visit "Flow with Sonja" every Thursday and I can only recommend it to everybody.
-I didn't think that yoga would bring me anything, but I was taught a better one and I wouldn't want to miss it anymore.
-Sonja always manages to bring about a state of relaxation within five minutes, so that I forget all everyday stress and feel like a new person after the class. 
-Thanks for this great experience :) 
-#thumbsup
-<div className="stars">★★★★★</div>
-</div>
-
-      
+        <h4>ae incorperated</h4>I came along today 31st December 2019 for a Gong
+        session combined with yoga. It was great a packed studio full of lovely
+        people who wanted to ring through the new year together. Great feel
+        amongst all who came and I liked the teachers vibe. It was chill and
+        will go again. Good atmosphere, donation based.
+        <div className="stars">★★★★★</div>
+      </div>
+      <div className="testimonial">
+        <h4>Marcel Fladrich</h4>
+        Since six weeks I visit "Flow with Sonja" every Thursday and I can only
+        recommend it to everybody. I didn't think that yoga would bring me
+        anything, but I was taught a better one and I wouldn't want to miss it
+        anymore. Sonja always manages to bring about a state of relaxation
+        within five minutes, so that I forget all everyday stress and feel like
+        a new person after the class. Thanks for this great experience :)
+        #thumbsup
+        <div className="stars">★★★★★</div>
+      </div>
     </div>
-  <h3 className="thanks">Thank you, from Sri & Nora, Green Yoga</h3>
+    <h3 className="thanks">Thank you, from Sri & Nora, Green Yoga</h3>
     <img className="img" src={img} alt="Green Yoga Founders"></img>
   </Layout>
 )
